@@ -541,7 +541,9 @@ text-decoration: none;
 footer span a:hover{
     text-decoration: underline;
 }
-
+footer{
+margin-top: 15px;
+}
 
 /*Responsivo*/
 @media(max-width: 1300px) {
