@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <title>Portfolio</title>
 </head>
+
 <body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>fólio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Servicos</a></li>
-                <li><a href="#">Especializacao</a></li>
-                <li><a href="#">Equipa</a></li>
-                <li><a href="#">Contactos</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Servicos</a></li>
+                <li><a href="#skills">Especializacao</a></li>
+                <li><a href="#teams">Equipa</a></li>
+                <li><a href="#contact">Contactos</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
             </div>
         </div>
-    </div> 
+    </div>
     <!--inicio-->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Ola, meu nome é</div>
                 <div class="text-2">Fenias Cossa</div>
-                <div class="text-3">eu sou um <span>programador</span></div>
+                <div class="text-3">eu sou um <span class="typing"></span></div>
                 <a href="#">Contratar-me</a>
             </div>
-        </div>   
+        </div>
     </section>
 
     <!--Seccao sobre-->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">Sobre</h2> 
+            <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="image/img-1.jpg" alt="">
                 </div>
                 <div class="column right">
-                        <div class="text">Sou Fenias e sou <span>Programador</span></div>
-                             <p>Sou um programador e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e duro e sempre trabalho de noite</p>
-                             <a href="#">Download CV</a>
+                    <div class="text">Sou Fenias e sou <span class="typing-1"></span></div>
+                    <p>Sou um programador e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                        cozinha) o trabalho e duro e sempre trabalho de noite</p>
+                    <a href="#">Download CV</a>
                 </div>
             </div>
-        </div>   
+        </div>
     </section>
 
 
- <!--Seccao de servicos-->
+    <!--Seccao de servicos-->
 
-        <section class="services" id="services">
+    <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Servicos</h2> 
+            <h2 class="title">Servicos</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <ion-icon name="brush-outline"></ion-icon>
                         <div class="text">Web Design</div>
-                         <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e duro e sempre trabalho de noite</p>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o trabalho e duro e sempre trabalho de noite</p>
                     </div>
                 </div>
 
@@ -73,7 +80,8 @@
                     <div class="box">
                         <ion-icon name="trending-up-outline"></ion-icon>
                         <div class="text">Anuncios</div>
-                         <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e duro e sempre trabalho de noite</p>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o trabalho e duro e sempre trabalho de noite</p>
                     </div>
                 </div>
 
@@ -81,133 +89,200 @@
                     <div class="box">
                         <ion-icon name="code-outline"></ion-icon>
                         <div class="text">Design de Apps</div>
-                         <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e duro e sempre trabalho de noite</p>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o trabalho e duro e sempre trabalho de noite</p>
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </section>
 
-<!--Seccao especalidade-->
-<section class="skills" id="skills">
-    <div class="max-width">
-        <h2 class="title">Especialidade</h2>
-        <div class="skills-content">
-            <div class="column left">
-                <div class="text">Minhas hablidades criativas e experiencias</div>
-                <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e
-                    duro e sempre trabalho de noite</p>
-                <a href="#">Mais informacoes</a>
-            </div>
-            <div class="column right">
-                <div class="bars">
-                    <div class="info">
-                        <span>HTML</span>
-                        <span>93%</span>
-                    </div>
-                    <div class="line html"></div>
+    <!--Seccao especalidade-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Especialidade</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas hablidades criativas e experiencias</div>
+                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                        cozinha) o trabalho e
+                        duro e sempre trabalho de noite</p>
+                    <a href="#">Mais informacoes</a>
                 </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>85%</span>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>93%</span>
+                        </div>
+                        <div class="line html"></div>
                     </div>
-                    <div class="line css"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>javascript</span>
-                        <span>87%</span>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line css"></div>
                     </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>PHP</span>
-                        <span>47%</span>
+                    <div class="bars">
+                        <div class="info">
+                            <span>javascript</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="line js"></div>
                     </div>
-                    <div class="line php"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MYSQL</span>
-                        <span>42%</span>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>47%</span>
+                        </div>
+                        <div class="line php"></div>
                     </div>
-                    <div class="line mysql"></div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MYSQL</span>
+                            <span>42%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--Seccao equipe-->
-<section class="teams" id="teams">
-    <div class="max-width">
-        <h2 class="title">Minha Equipe</h2>
-        <div class="carousel owl-carousel">
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-1.jpg" alt="">
-                    <div class="text">Fenias</div>
-                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o trabalho e
-                    duro e sempre trabalho de noite</p>
+    <!--Seccao equipe-->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Minha Equipe</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="image/img-1.jpg" alt="">
+                        <div class="text">Fenias</div>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o trabalho e
+                            duro e sempre trabalho de noite</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/img-1.jpg" alt="">
+                        <div class="text">Anatalia</div>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o
+                            trabalho e
+                            duro e sempre trabalho de noite</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/img-1.jpg" alt="">
+                        <div class="text">cuinica</div>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o
+                            trabalho e
+                            duro e sempre trabalho de noite</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/img-1.jpg" alt="">
+                        <div class="text">cumbe</div>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o
+                            trabalho e
+                            duro e sempre trabalho de noite</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/img-1.jpg" alt="">
+                        <div class="text">Ronaldo</div>
+                        <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                            cozinha) o
+                            trabalho e duro e sempre trabalho de noite</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-1.jpg" alt="">
-                    <div class="text">Anatalia</div>
-                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o
-                        trabalho e
-                        duro e sempre trabalho de noite</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-1.jpg" alt="">
-                    <div class="text">cuinica</div>
-                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o
-                        trabalho e
-                        duro e sempre trabalho de noite</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-1.jpg" alt="">
-                    <div class="text">cumbe</div>
-                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o
-                        trabalho e
-                        duro e sempre trabalho de noite</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-1.jpg" alt="">
-                    <div class="text">Ronaldo</div>
-                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o
+        </div>
+    </section>
+
+    <!--Seccao de contactos-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contactos</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Fale Conosco</div>
+                    <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao
+                        cozinha) o
                         trabalho e duro e sempre trabalho de noite</p>
+
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Fenias Cossa</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="earth-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Endereco</div>
+                                <div class="sub-title">Maputo - matola T3</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">fenisasebastiao636@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Mensagem</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="field">
+                                <input type="text" placeholder="sobrenome" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea placeholder="Escrever ..." cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--Seccao de contactos-->
-<section class="contact" id="contact">
-    <div class="max-width">
-        <h2 class="title">Contactos</h2>
-        <div class="contact-content">
-            <div class="text">Fale Conosco</div>
-            <p>Sou um web designer e consultor. ja fiz progectos e outos ainda em processo(ainda estao nao cozinha) o
-                trabalho e duro e sempre trabalho de noite</p>
-        </div>
-    </div>
-</section>
+    <!--Sessao de footer-->
+    <footer>
+        <span>Criado por <a href="#">Front</a> Todos os direitos reservados 2022</span>
+    </footer>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </body>
+
 </html>
