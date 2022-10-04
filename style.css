@@ -264,7 +264,7 @@ content: "Quem sou eu";
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "oque oferecemos";
+    content: "oque ofereço";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -300,7 +300,7 @@ content: "Quem sou eu";
  
 /*sessao responsividade*/
 .skills .title::after{
-    content: "Oque faco";
+    content: "Oque faço";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -363,12 +363,24 @@ content: "Quem sou eu";
     width: 85%;
 }
 .skills .skills-content .right .js::before {
-    width: 87%;
+    width: 77%;
+}
+.skills .skills-content .right .j::before {
+    width: 90%;
+}
+.skills .skills-content .right .csharp::before {
+    width: 60%;
+}
+.skills .skills-content .right .c::before {
+    width: 70%;
 }
 .skills .skills-content .right .php::before {
     width: 47%;
 }
 .skills .skills-content .right .mysql::before {
+    width: 60%;
+}
+.skills .skills-content .right .sqlserver::before {
     width: 42%;
 }
 
