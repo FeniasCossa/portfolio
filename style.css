@@ -383,6 +383,15 @@ content: "Quem sou eu";
 .skills .skills-content .right .sqlserver::before {
     width: 42%;
 }
+.skills .skills-content .right .sql::before {
+    width: 98%;
+}
+.skills .skills-content .right .docker::before {
+    width: 60%;
+}
+.skills .skills-content .right .superset::before {
+    width: 80%;
+}
 
 /*sessao team*/
 .teams .title::after{
@@ -540,12 +549,7 @@ content: "Quem sou eu";
     color: #00804b;
     background: none;
 }/*footer*/
-footer{
-    background: #111;
-    padding: 20px 23px ;
-    color: #fff;
-    text-align: center;
-}
+
 footer span a{
 color: #00804b;
 text-decoration: none;
@@ -553,9 +557,36 @@ text-decoration: none;
 footer span a:hover{
     text-decoration: underline;
 }
-footer{
-margin-top: 15px;
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00acee; /* Cor ao passar o mouse */
+    transform: scale(1.2);
+}
+
+
+
 
 /*Responsivo*/
 @media(max-width: 1300px) {
